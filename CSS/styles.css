@@ -3,7 +3,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid;
+    padding: 5px 20px;
 
+}
+.menu-container{
+    display: flex;
 }
 .menu{
     border: 1px, solid;
