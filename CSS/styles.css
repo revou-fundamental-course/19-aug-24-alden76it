@@ -7,6 +7,9 @@ nav{
     padding: 5px 20px;
 
 }
+.banner-container {
+    border: 1px solid;
+}
 .menu-container{
     display: flex;
 }
@@ -29,9 +32,19 @@ nav{
     border-radius: 50%;
 }
 .banner-img{
-    border: 1px solid;
     height: 400px;
 }
 .profile-container {
-    
+    border: 1px solid;
+    height: 350px;
+}
+.list-profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#profile-item {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
