@@ -57,23 +57,27 @@
 
         <section>
             <form action="">
-                <div>
-                    <label for="data-nama">Nama     :</label>
-                    <input type="text" id="data-nama" name="data-nama">
-                </div>
-                <div>
-                    <label for="tgl-lahir">Tanggal lahir :</label>
-                    <input type="date" id="tgl-lahir" name="tgl-lahir">
-                </div>
-                <div>
-                    <p>Jenis kelamin :</p>
-                    <label for="pria">Pria</label>
-                    <input type="radio" id="pria" name="pria" value="pria">
-                    <label for="wanita">Wanita</label>
-                    <input type="radio" id="wanita" name="wanita" value="wanita">
-                </div>
-                <div>
-                    <textarea name="pesan" id="pesan" rows="10" cols="30">Pesan :</textarea>
+                <div class="form-container">
+                    <div id="nama-container">
+                        <label for="data-nama">Nama     :</label>
+                        <input type="text" id="data-nama" name="data-nama">
+                    </div>
+                    <div id="tl-container">
+                        <label for="tgl-lahir">Tanggal lahir :</label>
+                        <input type="date" id="tgl-lahir" name="tgl-lahir">
+                    </div>
+                    <div id="pw-container">
+                        <p>Jenis kelamin :</p>
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="pria" name="man" value="pria">
+                        <label for="wanita">Wanita</label>
+                        <input type="radio" id="wanita" name="woman" value="wanita">
+                    </div>
+                    <div id="textarea-container">
+                        <p>Pesan :</p>
+                        <textarea name="pesan" id="pesan" rows="10" cols="30"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
                 </div>
             </form>
             <div></div>

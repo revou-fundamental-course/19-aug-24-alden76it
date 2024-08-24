@@ -48,3 +48,19 @@ nav{
     width: 200px;
     border-radius: 50%;
 }
+#nama-container {
+    display: flex;
+}
+#tl-container {
+    display: flex;
+}
+#pw-container {
+    display: flex;
+    width: 50%;
+}
+#pria {
+    display: flex;
+}
+#textarea-container {
+    display: flex;
+}
