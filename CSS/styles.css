@@ -48,14 +48,21 @@ nav{
     width: 200px;
     border-radius: 50%;
 }
+.data-collection {
+    display: flex;
+    justify-content: space-between;
+}
 .form-container {
     justify-content: space-between;
+    width: 50%;
 }
 #nama-container {
     display: flex;
+    width: 50%;
 }
 #tl-container {
     display: flex;
+    width: 50%;
 }
 #pw-container {
     display: flex;
@@ -67,4 +74,10 @@ nav{
 }
 #textarea-container {
     display: flex;
+    width: 50%;
+}
+.data-rekap {
+    width: 50%;
+    height: 250px;
+    background-color: lavender;
 }
