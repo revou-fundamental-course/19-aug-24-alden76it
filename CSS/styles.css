@@ -83,15 +83,13 @@ nav{
 #pw-container {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 #tipe-pw {
     text-align: center;
 }
-#pria {
-    display: flex;
-}
+
 #textarea-container {
     display: flex;
     width: 100%;
