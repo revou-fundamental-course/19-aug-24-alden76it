@@ -94,6 +94,7 @@ nav{
 }
 #tipe-pw {
     text-align:left;
+    display: ruby;
 }
 
 #textarea-container {
@@ -112,6 +113,7 @@ input[type=text], [type=submit], [type=date] {
 }
 label {
     width: 130px;
+    text-align: justify;
 }
 #jenis-kelamin {
     align-items: center;
