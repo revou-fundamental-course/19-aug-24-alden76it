@@ -93,7 +93,7 @@ nav{
 
 }
 #tipe-pw {
-    text-align: center;
+    text-align:left;
 }
 
 #textarea-container {
@@ -107,6 +107,9 @@ nav{
     background-color: lavender;
     margin: 10px 10px;
 }
-input {
+input[type=text], [type=submit], [type=date] {
     width: 100%;
+}
+label {
+    width: 130px;
 }
