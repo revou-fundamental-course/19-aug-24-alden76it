@@ -48,6 +48,9 @@ nav{
     width: 200px;
     border-radius: 50%;
 }
+.form-container {
+    justify-content: space-between;
+}
 #nama-container {
     display: flex;
 }
@@ -57,6 +60,7 @@ nav{
 #pw-container {
     display: flex;
     width: 50%;
+    justify-content: none;
 }
 #pria {
     display: flex;
