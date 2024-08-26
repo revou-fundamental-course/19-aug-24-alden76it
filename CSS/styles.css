@@ -118,3 +118,6 @@ label {
 #jenis-kelamin {
     align-items: center;
 }
+textarea {
+    width: 100%;
+}
