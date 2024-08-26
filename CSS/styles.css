@@ -110,13 +110,23 @@ nav{
 }
 input[type=text], [type=submit], [type=date] {
     width: 100%;
+    margin-right: 10px;
+
+}
+input[type=radio] {
+    margin-left: 10px;
+    padding-right : 5px;
 }
 label {
     width: 130px;
-    text-align: justify;
+    text-align-last: justify;
+    margin-left: 10px;
+    padding-right: 5px;
 }
 #jenis-kelamin {
-    align-items: center;
+    text-align-last: justify;
+    margin-left: 10px;
+    padding-right: 5px;
 }
 textarea {
     width: 100%;
