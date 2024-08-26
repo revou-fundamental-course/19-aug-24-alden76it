@@ -87,7 +87,7 @@ nav{
     justify-content: space-between;
 }
 #pw-container {
-    display: flex;
+    display: block;
     width: 100%;
     justify-content: space-between;
 
@@ -106,4 +106,7 @@ nav{
     height: 250px;
     background-color: lavender;
     margin: 10px 10px;
+}
+input {
+    width: 100%;
 }
