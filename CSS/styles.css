@@ -87,9 +87,9 @@ nav{
     justify-content: space-between;
 }
 #pw-container {
-    display: block;
+    display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: left;
 
 }
 #tipe-pw {
@@ -112,4 +112,7 @@ input[type=text], [type=submit], [type=date] {
 }
 label {
     width: 130px;
+}
+#jenis-kelamin {
+    align-items: center;
 }
