@@ -58,6 +58,9 @@ nav{
     height: 400px;
     
 }
+#text-spacing {
+    text-align: justify;
+}
 .data-entry {
     
     justify-content: space-between;
@@ -69,15 +72,18 @@ nav{
 }
 #nama-container {
     display: flex;
-    width: 50%;
+    width: 100%;
+    justify-content: space-between;
 }
 #tl-container {
     display: flex;
-    width: 50%;
+    width: 100%;
+    justify-content: space-between;
 }
 #pw-container {
     display: flex;
-    width: 50%;
+    width: 100%;
+    justify-content: space-evenly;
 
 }
 #pria {
@@ -85,7 +91,8 @@ nav{
 }
 #textarea-container {
     display: flex;
-    width: 50%;
+    width: 100%;
+    justify-content: space-between;
 }
 .data-rekap {
     width: 50%;
