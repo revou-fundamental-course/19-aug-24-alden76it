@@ -92,9 +92,14 @@ nav{
     justify-content: left;
 
 }
+#jenis-kelamin {
+    text-align-last: justify;
+    margin-left: 10px;
+    padding-right: 5px;
+}
 #tipe-pw {
     text-align:left;
-    display: ruby;
+    display: block;
 }
 
 #textarea-container {
@@ -111,14 +116,16 @@ nav{
 input[type=text], [type=submit], [type=date] {
     width: 100%;
     margin-right: 10px;
+    padding: 5px;
 
 }
 input[type=radio] {
-    margin-right: 10px;
+    
+    
     
 }
 label {
-    width: 140px;
+    width: 135px;
     text-align-last: justify;
     margin-left: 10px;
     padding-right: 5px;
