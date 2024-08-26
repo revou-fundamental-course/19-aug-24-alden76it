@@ -48,9 +48,20 @@ nav{
     width: 200px;
     border-radius: 50%;
 }
+.data-container {
+    border: 1px solid;
+    height: 400px;
+}
 .data-collection {
     display: flex;
     justify-content: space-between;
+    height: 400px;
+    
+}
+.data-entry {
+    
+    justify-content: space-between;
+    display: contents;
 }
 .form-container {
     justify-content: space-between;
