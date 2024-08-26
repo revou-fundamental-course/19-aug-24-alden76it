@@ -89,17 +89,20 @@ nav{
 #pw-container {
     display: flex;
     width: 100%;
-    justify-content: left;
+    
 
 }
 #jenis-kelamin {
     text-align-last: justify;
     margin-left: 10px;
-    padding-right: 5px;
+    width: 105px;
+    
 }
 #tipe-pw {
     text-align:left;
     display: block;
+    align-content: center;
+    padding-left: 5px;
 }
 
 #textarea-container {
@@ -120,7 +123,7 @@ input[type=text], [type=submit], [type=date] {
 
 }
 input[type=radio] {
-    
+  padding-right: 5px;  
     
     
 }
