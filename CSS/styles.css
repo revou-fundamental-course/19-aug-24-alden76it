@@ -86,6 +86,9 @@ nav{
     justify-content: space-evenly;
 
 }
+#tipe-pw {
+    text-align: center;
+}
 #pria {
     display: flex;
 }
