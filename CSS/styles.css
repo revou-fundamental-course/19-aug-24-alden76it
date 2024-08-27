@@ -1,4 +1,5 @@
 /* styles.css */
+
 nav{
     display: flex;
     align-items: center;
@@ -137,4 +138,19 @@ label {
 textarea {
     width: 100%;
     margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+    .menu-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .profile-container {
+        flex-direction: column;
+    }
+    .list-profile {
+        flex-direction: column;
+    }
 }
