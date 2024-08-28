@@ -10,7 +10,7 @@ function gantiNama() {
 gantiNama();
 
 let slideIndex = [1,1];
-let slideId = ["banner-img", "mySlides2"]
+let slideId = ["banner-img", "mysecondslide"]
 showSlides(1, 0);
 showSlides(1, 1);
 
@@ -26,10 +26,10 @@ showSlides(slideIndex[no] = n, no);
 
 function showSlides(n, no) {
 let i;
-let slides = document.getElementsByClassName("slideshowimg");
+let slides = document.getElementsByClassName("slideId[no]");
 let dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
+if (n > slides.length) {slideIndex[no] = 1}
+if (n < 1) {slideIndex[no] = slides.length}
 for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
     }
