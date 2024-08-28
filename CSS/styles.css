@@ -33,12 +33,31 @@ nav{
     border: 1px, solid;
     border-radius: 50%;
 }
+#subtitle {
+    margin-left: 10px;
+    
+}
 .banner-img{
-    height: 400px;
+    height: 650px;
+}
+.image-slide {
+    height: 350px;
+}
+#myimagesatu {
+    height: 520px;
+    width: 1290px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+#keterangan {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .profile-container {
     border: 1px solid;
     height: 350px;
+    
 }
 .list-profile {
     display: flex;
