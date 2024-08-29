@@ -163,7 +163,7 @@
             <h1 id="hubungi-kami">Message Us</h2>
             <aside class="data-collection">
                 <div class="form-container">
-                    <form action="" id="data-entry">
+                    <form name="message-form" onsubmit="return valdateForm()">
                         <div id="nama-container">
                             <label for="data-nama">Nama :</label>
                             <input type="text" id="data-nama" name="data-nama">
@@ -185,11 +185,15 @@
                             <label for="pesan">Pesan :</label>
                             <textarea name="pesan" id="pesan" rows="7"></textarea>
                         </div><br>
-                        <input type="submit" value="Submit">
-                     </form>
+                        <button class="sender-data" type="button" onclick="validateFrom()">Submit</button>
+                    </form>
+
                 </div>
                 <div class="data-rekap">
-
+                    <p id="rekap-nama"></p>
+                    <p id="rekap-lahir"></p>
+                    <p id="rekap gender"></p>
+                    <p id="rekap pesan"></p>
                 </div>
             
                            
