@@ -37,15 +37,10 @@ nav{
     margin-left: 10px;
     
 }
-.banner-img{
-    height: 650px;
-}
-.image-slide {
-    height: 350px;
-}
-#myimagesatu {
-    height: 520px;
-    width: 1290px;
+
+#myimageshow {
+    height: 420px;
+    width: 1310px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
@@ -54,6 +49,38 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
 }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: 100px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 8px;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.second-slide {
+    display: flex;
+}
+
+.banner-img{
+    height: 650px;
+}
+.image-slide {
+    height: 350px;
+}
+
 .profile-container {
     border: 1px solid;
     height: 350px;
@@ -72,6 +99,27 @@ nav{
     width: 200px;
     border-radius: 50%;
     
+}
+.myimage {
+    width: 50%;
+    padding-left: 10px;
+    margin-top: 15px;       
+    padding-right: 10px;
+    border-radius: 10px;
+} 
+.neymar {
+    width: 9%;
+    border-radius: 100%;
+    float: left;
+    margin-bottom: -5px;
+}
+#profile1 {
+    font-size:small;
+    margin-left: 15px;
+}
+#profile1-2{
+    font: size 15px;
+    margin-left: 15px;
 }
 .data-container {
     border: 1px solid;
