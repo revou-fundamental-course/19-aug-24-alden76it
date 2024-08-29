@@ -43,7 +43,7 @@ setInterval(() => {
 
 
 // function validasiForm
-function validateFrom() {
+function validateForm() {
     let inputNama = document.forms["message-form"]["data-nama"].value;
     let inputBirth =  document.forms["message-form"]["tgl-lahir"].value;
     let genderType = document.forms["message-form"]["jenis-kelamin"].value;
@@ -51,14 +51,15 @@ function validateFrom() {
 
     if (inputNama == "" || inputBirth == "" || genderType == "" || message == "") {
         alert("Data tidak boleh ada yang kosong")
-    }
-    
+        
     return false;
-
-    document.getElementById("rekap-nama").innerHTML ="Nama :" + imputNama;
+    }
+    let time = new Date();
+    document.getElementById("rekap-now").innerHTML = "Waktu sekarang :" + time;
+    document.getElementById("rekap-nama").innerHTML ="Nama :" + inputNama;
     document.getElementById("rekap-lahir").innerHTML = "Tangal lahir :" + inputBirth;
-    document.getElementById("rekap gender").innerHTML = "Jenis klamin :" + genderType;
-    document.getElementById("rekap pesan").innerHTML = "Pesan :" + message;
+    document.getElementById("rekap-gender").innerHTML = "Jenis klamin :" + genderType;
+    document.getElementById("rekap-pesan").innerHTML = "Pesan :" + message;
     return false;
 }
 
