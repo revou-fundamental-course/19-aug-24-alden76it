@@ -19,26 +19,23 @@ function plusSlides(n, no) {
 showSlides(slideIndex[no] += n, no);
 }
 
-// Thumbnail image controls
-function currentSlide(n, no) {
-showSlides(slideIndex[no] = n, no);
-}
 
 function showSlides(n, no) {
-let i;
-let slides = document.getElementsByClassName("slideId[no]");
-let dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex[no] = 1}
-if (n < 1) {slideIndex[no] = slides.length}
-for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-    }
-for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    let i;
+    let slides = document.getElementsByClassName("slideId[no]");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex[no] = 1}
+    if (n < 1) {slideIndex[no] = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+
     }
 setInterval(() => {
-plusSlides(1); 
+plusSlides(1,1); 
 }, 3000);
+
+setInterval(() => {
+    plusSlides(1,0); 
+}, 3500);
