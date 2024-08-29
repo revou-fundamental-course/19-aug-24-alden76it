@@ -46,26 +46,19 @@ setInterval(() => {
 function validateFrom() {
     let inputNama = document.forms["message-form"]["data-nama"].value;
     let inputBirth =  document.forms["message-form"]["tgl-lahir"].value;
-    let genderType = document.forms["message-form"]["jenis-kelamin"];
+    let genderType = document.forms["message-form"]["jenis-kelamin"].value;
     let message = document.forms["message-form"]["pesan"].value;
 
-    if (inputNama == "" || inputBirth == "" || message == "") {
+    if (inputNama == "" || inputBirth == "" || genderType == "" || message == "") {
         alert("Data tidak boleh ada yang kosong")
     }
-    if (genderType[0].checked !=true && genderType[1].checked !=true) {
-        alert ("Data tidak boleh ada yang kosong");
-    }
+    
     return false;
 
-    sendData(imputNama, inputBirth, genderType, message);
-    return false;
-}
-
-//function sedData
-
-function sendData(imputNama, inputBirth, genderType, message) {
     document.getElementById("rekap-nama").innerHTML ="Nama :" + imputNama;
     document.getElementById("rekap-lahir").innerHTML = "Tangal lahir :" + inputBirth;
     document.getElementById("rekap gender").innerHTML = "Jenis klamin :" + genderType;
     document.getElementById("rekap pesan").innerHTML = "Pesan :" + message;
+    return false;
 }
+
